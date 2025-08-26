@@ -21,6 +21,7 @@
 ### 1. Tầng vật lý (Physical layer)
 - Là tầng thấp nhất trong mô hình OSI, tầng vật lý thực hiện chức năng chuyển tiếp dữ liệu từ kênh truyền nguồn tới kênh truyền đích. 
 - Dữ liệu trong tầng vật lý được biểu diễn dưới dạng dãy bit 0 và 1. Sau khi nhận được dữ liệu từ kênh truyền khác, tầng vật lý thực hiện chuyển tiếp dữ liệu lên tầng liên kết dữ liệu.
+
 - Các chức năng của tầng vật lý:
   - Biểu diễn bit: Chuyển đổi dữ liệu số(bit) thành tín hiệu vật lý(tín hiệu điện, quang học, radio) để truyền trên phương tiện vật lý như cáp đồng, cáp quang, không khí.
   - Kiểm soát tốc độ dữ liệu(Bit rate control): Điều chỉnh tốc độ truyền dữ liệu, tức là số lượng bit truyền trên một kênh truyền trong một đơn vị thời gian. Điều này đảm bảo dữ liệu được truyền một cách hiệu quả và phù hợp với khả năng của phương tiện truyền dẫn.
